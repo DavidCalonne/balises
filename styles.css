@@ -1,0 +1,316 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiAyp8kv8JHgFVrJJLmE3tF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmv1plEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm21llEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmg1hlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmr19lEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15lEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm111lEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm81xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrLPTedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLFj_V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDD4V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLBT5V1s.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  min-height: 100dvh;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+p {
+  font-size: 14px;
+  line-height: 16px;
+}
+p.bigger {
+  font-size: 17px;
+  line-height: 20px;
+}
+select,
+input,
+textarea {
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+.responsive {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tab .choix-langue {
+  display: flex;
+  gap: 10px;
+}
+.tab .choix-langue div {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#choix-pres {
+  display: flex;
+  gap: 10px;
+}
+#choix-pres > div {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#choix-pres .svg-icon {
+  width: 24px;
+  height: 24px;
+}
+#choix-pres .svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #008080;
+}
+#choix-pres > div:hover,
+.tab .langue:hover,
+#choix-pres .disposition.active,
+.tab .langue.active {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+textarea {
+  padding: 10px;
+  width: 100%;
+}
+.apercu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+html[data-disposition="grid"] .responsive .container {
+  flex-direction: row;
+  align-items: center;
+}
+html[data-disposition="grid"] .responsive .container textarea {
+  height: 300px;
+}
+html[data-disposition="grid"] .responsive .container a::after {
+  width: 0;
+  height: 100%;
+}
+html[data-disposition="grid"] .responsive .container a:hover::after {
+  width: 100%;
+}
+html[data-disposition="lines"] .responsive .container {
+  flex-direction: column;
+}
+html[data-disposition="lines"] .responsive .container textarea {
+  height: 200px;
+}
+html[data-disposition="lines"] .responsive .container a .svg-icon {
+  transform: rotate(90deg);
+  -mz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+html[data-disposition="lines"] .responsive .container a::after {
+  height: 0;
+  width: 100%;
+}
+html[data-disposition="lines"] .responsive .container a:hover::after {
+  height: 100%;
+}
+#rendu_texte {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+abbr {
+  display: inline-block;
+  text-decoration: none;
+}
+a {
+  display: block;
+  height: 40px;
+  padding: 0 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  cursor: pointer;
+}
+a .svg-icon {
+  width: 40px;
+  height: 40px;
+}
+a .svg-icon path,
+a .svg-icon polygon,
+a .svg-icon rect {
+  fill: teal;
+}
+a span {
+  position: relative;
+  z-index: 2;
+}
+a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background: white;
+  transition: all 0.35s;
+}
+a:hover {
+  color: #fff;
+}

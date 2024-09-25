@@ -1,0 +1,41 @@
+document.addEventListener("DOMContentLoaded", function(){
+    function addActiveClass(element){element.classList.add("active")}
+    function removeActiveClass(element){element.classList.remove("active")}
+
+    // Initialisation des variables
+    let differentsDisposition = document.querySelectorAll(".disposition");
+    let differentsLangues = document.querySelectorAll(".langue");
+
+    // Fonction pour ajouter/retirer les attributs data-disposition et data-langue
+    function setDataAttributes(element, attribute){
+        let data = element.getAttribute(attribute);
+        document.querySelector("html").setAttribute(attribute, data);
+    }
+
+    // Initialisation des attributs data-disposition et data-langue
+    setDataAttributes(document.querySelector(".disposition[data-disposition='grid']"), "data-disposition");
+    setDataAttributes(document.querySelector(".langue[data-langue='fr']"), "data-langue");
+
+    // Choix de la disposition des items
+    differentsDisposition.forEach(function(El){
+        El.addEventListener("click", function(){
+            differentsDisposition.forEach(function(element){
+                removeActiveClass(element);
+            });
+            addActiveClass(El);
+            setDataAttributes(El, "data-disposition");
+        });
+    });
+
+    // Choix de la langue
+    differentsLangues.forEach(function(El){
+        El.addEventListener("click", function(){
+            differentsLangues.forEach(function(element){
+                removeActiveClass(element);
+            });
+            addActiveClass(El);
+            setDataAttributes(El, "data-langue");
+        });
+    });
+
+});
