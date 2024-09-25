@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0}
+body {
+    font-family: "Segoe UI", "Arial", Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+}
+
+.flex{display: flex}
+.flex-column{display: flex; flex-direction: column}
+.gap{gap: 10px}
+textarea{resize: none; height: 200px}
+button, textarea{
+    padding: 10px;
+}
+.langue{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.langue:hover{cursor: pointer; background-color: lightgray}
+.langue.active{background-color: lightgrey}
+button:hover{cursor: pointer}

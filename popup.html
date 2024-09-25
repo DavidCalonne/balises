@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ajouter mes balises</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+    </head>
+    <body class="flex-column gap">
+        <header class="flex gap">
+            <div class="langue active" data-langue="fr">
+                <img src="./assets/france.png" alt="fr">
+            </div>
+            <div class="langue" data-langue="en">
+                <img src="./assets/anglais.png" alt="en">
+            </div>
+        </header>
+        <body>
+            <h1>Collez votre texte ici</h1>
+            <p>Cette extension prend en compte les espaces insécables avant les signes doubles (&nbsp;;&nbsp;:&nbsp;?&nbsp;!&nbsp;&euro;) mais aussi le remplacement des&nbsp;&euro; et &oelig;.</p>
+            <textarea id="contenu" autofocus></textarea>
+            <button id="transform-contenu">Rendre accessible</button>
+        </body>
+        <script type="text/javascript" src="balise.js"></script>
+    </body>
+</html>
