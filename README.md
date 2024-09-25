@@ -6,6 +6,7 @@ Une extension chrome pour rajouter les espaces insécables (&nbsp) avant les sig
 - le point d'interrogation&nbsp;?
 - le point d'exclamation&nbsp;!
 - les guillemets&nbsp;«&nbsp;»
+- mise à jour du symbole € et de oe.  
 
 
 ## Installation
